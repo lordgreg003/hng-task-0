@@ -120,9 +120,9 @@ p.x {
   font-size: 1rem;
 }
 
-p.a {
+/* p.a {
   font-size: xx-large;
-}
+} */
 
 @media (max-width: 600px) {
   .goal {
