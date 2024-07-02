@@ -1,0 +1,172 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #222831;
+}
+
+header {
+  background-color: #333;
+  color: #b2b9cf;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.profile {
+  background-color: #222831;
+  color: #b2b9cf;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.goals {
+  background-color: #222831;
+  color: #b2b9cf;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.goal {
+  margin: 1rem 0;
+}
+
+.goal-1-1 {
+  width: 50rem;
+  background-color: #ff6b6b;
+  height: 50rem;
+}
+.goal-1-2 {
+  width: 50rem;
+  background-color: aqua;
+}
+
+.goal-title,
+.goal-description {
+  margin: 0.5rem 0;
+}
+.box {
+  width: 300px;
+  height: 400px;
+
+  display: contents;
+}
+.profile-picture {
+  max-width: 100%;
+}
+
+.goal:hover {
+  transform: translateY(-5px);
+}
+
+p.x {
+  font-size: 2rem;
+  font-weight: bold;
+  background: linear-gradient(45deg, #ff6b6b, #f6d365, #36d1dc, #5b86e5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.goals {
+  background-color: #222831;
+  color: #b2b9cf;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.goal-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.reachOut-container {
+  display: flex;
+  gap: 2rem;
+  padding-top: 2rem;
+}
+
+.goal {
+  width: calc(50% - 1rem); /* Two goals per row on medium screens */
+  margin-bottom: 1rem;
+}
+
+.goal-content {
+  padding: 1rem;
+  background-color: #333;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.goal-title {
+  font-size: 1.5rem;
+  color: #ff6b6b;
+}
+
+.goal-description {
+  font-size: 1rem;
+}
+
+p.a {
+  font-size: xx-large;
+}
+
+footer.v {
+  gap: 2rem;
+}
+
+@media (max-width: 600px) {
+  .goal {
+    width: 100%; /* One goal per row on small screens */
+  }
+  .profile-picture {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 600px) {
+  .goal {
+    display: flex;
+    justify-content: space-between;
+  }
+  .goal-title,
+  .goal-description {
+    flex: 1;
+    margin: 0.5rem;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #b2b9cf;
+}
+
+footer nav a {
+  color: #b2b9cf;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+footer a:hover {
+  background-color: #00adb5;
+  border-radius: 4px;
+}
+
+footer nav a:hover {
+  text-decoration: underline;
+}
