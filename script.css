@@ -124,10 +124,6 @@ p.a {
   font-size: xx-large;
 }
 
-footer.v {
-  gap: 2rem;
-}
-
 @media (max-width: 600px) {
   .goal {
     width: 100%; /* One goal per row on small screens */
