@@ -111,6 +111,14 @@ p.x {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.goal-content a {
+  color: darkgray;
+}
+.goal-content a:hover {
+  cursor: pointer;
+  /* color: #f6d365; */
+}
+
 .goal-title {
   font-size: 1.5rem;
   color: #ff6b6b;
