@@ -12,54 +12,56 @@
     </header>
     <main class="container">
       <section class="profile">
-        <h2 data-testid="slackDisplayName">Nwokoye Chidera Alexander</h2>
+        <h2 data-testid="fullName">Nwokoye Chidera Alexander</h2>
         <div class="box">
           <img
             src="./images/Greg.png"
-            alt="Slack Profile Picture"
-            data-testid="slackProfilePicture"
+            alt="Profile Picture"
+            data-testid="profilePicture"
             class="profile-picture"
           />
         </div>
-        <p class="a" data-testid="slackEmail">chideranwokoye555@gmail.com</p>
+        <p class="a" data-testid="emailAddress">chideranwokoye555@gmail.com</p>
         <p class="a" data-testid="currentTimeUTC"></p>
-        <p class="a" data-testid="currentDay"></p>
+        <p class="a" data-testid="currentLocation">Location info</p>
       </section>
       <section class="goals">
         <div class="goal-container">
           <div class="goal">
             <div class="goal-content">
-              <h2 class="goal-title">BE A FULL STACK SENIOR DEVELOPER</h2>
-              <p class="goal-description"></p>
-              <p>Hi dear</p>
-              <p class="x">My name is Nwokoye Chidera</p>
-              <p>I develop efficient and scalable web solutions</p>
-              <p>
-                I tell computers "DO THIS!!", and they refuse. Then I cry for a
-                very long time 😭
+              <h2 class="goal-title" data-testid="goalTitle1">
+                BE A FULL STACK SENIOR DEVELOPER
+              </h2>
+              <p class="goal-description" data-testid="shortBio">
+                Hi dear, my name is Nwokoye Chidera. I develop efficient and
+                scalable web solutions. I tell computers "DO THIS!!", and they
+                refuse. Then I cry for a very long time 😭
               </p>
-              <p>
-                My name is Nwokoye Chidera, a front-end web developer from
-                Nigeria. I am on the journey to become a full-stack web
-                developer/Mobile developer. I love to build fun and scalable
-                stuff on the web which requires paying attention to detail and
-                being ready to learn new things when required.
+              <p data-testid="shortBio">
+                I’m a full-stack web developer with a strong passion for
+                front-end development. I love creating beautiful, responsive
+                user interfaces that provide a seamless experience for users. My
+                journey into web development began with front-end technologies,
+                and over time, I expanded my skills to back-end development,
+                which has allowed me to build more complete and dynamic web
+                applications. As I continue to grow as a developer, I am
+                constantly learning new technologies and striving to improve my
+                skills in both front-end and back-end development, as well as
+                mobile app development.
               </p>
-              <p>
-                Over time, I have acquired a solution-oriented personality used
-                to deliver efficient, accessible and creative
-                solutions/experiences to one and all.
-              </p>
-              <p>
-                When I'm not programming, I love being in very quiet spaces.
-                Watching Anime. Talking about how awesome Ribena is. Surfing the
-                internet for fast cars. Or Playing video games.
+              <p class="goal-description" data-testid="shortBio">
+                I have a strong passion for front-end development. Although I am
+                a full-stack developer, I enjoy creating intuitive and visually
+                appealing user interfaces. With a keen interest in building
+                scalable, user-centered web applications, I strive to enhance my
+                skills and stay up-to-date with the latest technologies to
+                deliver seamless digital experiences.
               </p>
             </div>
           </div>
           <div class="goal">
             <div class="goal-content">
-              <h2 class="goal-title">Tools</h2>
+              <h2 class="goal-title" data-testid="goalTitle2">Tools</h2>
               <p class="goal-description">
                 These are a few tools and technologies I am familiar with which
                 I have also been working with as well.
@@ -71,14 +73,20 @@
                 <li>JAVASCRIPT</li>
                 <li>TYPESCRIPT</li>
                 <li>REACT</li>
+                <li>NEXT.JS</li>
+                <li>NODE.JS</li>
+                <li>EXPRESS.JS</li>
+                <li>Vite</li>
                 <li>GIT & GITHUB</li>
                 <li>BOOSTRAP</li>
+                <li>MongoDB</li>
+                <li>Angular</li>
               </ul>
               <div>
                 Meanwhile, I am still on my journey to learn more languages, you
-                can also reach out to me on these
+                can also reach out to me on these:
               </div>
-              <div class="reachOut-container">
+              <div class="reachOut-container" data-testid="socialLinks">
                 <div>
                   <a
                     href="https://web.facebook.com/Greggee003"
@@ -99,7 +107,6 @@
                       src="https://img.icons8.com/fluency/48/instagram-new.png"
                       alt="instagram-new"
                     />
-                    <pre></pre>
                   </a>
                 </div>
                 <div>
@@ -114,24 +121,17 @@
                   </a>
                 </div>
               </div>
-              <div>
-                Building a strong network of like-minded professionals is
-                crucial for growth and learning. I will actively participate in
-                tech meetups, online communities, and conferences to share
-                knowledge, collaborate on projects, and stay updated on industry
-                trends. Engaging with the tech community will provide valuable
-                insights and opportunities for collaboration.
-              </div>
             </div>
           </div>
           <div class="goal">
             <div class="goal-content">
-              <h2 class="goal-title">Gain Insights from Industry Leaders</h2>
+              <h2 class="goal-title" data-testid="goalTitle3">
+                Gain Insights from Industry Leaders
+              </h2>
               <p class="goal-description">
                 In my journey to achieve these goals, I draw inspiration from
                 leading companies that are at the forefront of technology
-                innovation. Three companies, in particular, stand out for their
-                significant contributions to the tech industry:
+                innovation.
               </p>
               <ul>
                 <li>
@@ -143,62 +143,37 @@
                     >HNG Tech Learn</a
                   >
                   is an incredible platform for learning and growth in the tech
-                  field. It offers a wealth of resources and opportunities to
-                  connect with other tech enthusiasts, making it an essential
-                  part of my learning journey.
-                </li>
-                <li>
-                  Keyword Dog:
-                  <a
-                    href="https://keyword.dog/"
-                    aria-label="Read more about keyword dog"
-                    data-testid="keywordLink"
-                    >Keyword Dog</a
-                  >
-                  provides valuable insights into keyword research and SEO
-                  strategies. By leveraging their tools and expertise, I aim to
-                  enhance my understanding of search engine optimization and
-                  improve the visibility of the projects I work on.
-                </li>
-                <li>
-                  Scrape Any Web:
-                  <a
-                    href="https://scrapeanyweb.site"
-                    aria-label="about scrape web"
-                    data-testid="scrapeanywebLink"
-                    >Scrape Any Web</a
-                  >
-                  offers powerful tools for web scraping and data extraction.
-                  Learning to use these tools effectively will enable me to
-                  gather and analyze data from various sources, enhancing the
-                  functionality and depth of the applications I develop.
+                  field.
                 </li>
               </ul>
             </div>
           </div>
           <div class="goal">
             <div class="goal-content">
-              <h2 class="goal-title">
-                Learn Back-End Development/Explore Mobile App Development
+              <h2 class="goal-title" data-testid="goalTitle4">
+                Master Full-Stack Development with a Focus on Front-End and
+                Mobile Apps
               </h2>
               <p class="goal-description">
-                To become a well-rounded developer, I will expand my knowledge
-                to include back-end development. This involves learning
-                server-side languages and frameworks such as Node.js, Express,
-                Python, and Django. I also plan to gain experience with
-                databases like MongoDB, PostgreSQL, and MySQL. Understanding
-                back-end development will enable me to build robust and scalable
-                applications that handle data efficiently.
+                As a full-stack developer with a deep passion for front-end
+                technologies, my goal is to continue expanding my skills in both
+                the front-end and back-end areas. I aim to build more complex,
+                scalable applications while maintaining a focus on creating
+                intuitive, user-friendly interfaces. Additionally, with the rise
+                of mobile usage, I plan to explore mobile app development using
+                frameworks like React Native and Flutter to create
+                cross-platform applications that deliver seamless experiences
+                across devices.
               </p>
-              <h3 class="goal-title"></h3>
               <p>
-                With the increasing use of mobile devices, developing mobile
-                applications has become crucial. I aim to learn mobile
-                development frameworks such as React Native and Flutter to
-                create cross-platform applications for both iOS and Android. By
-                diving into mobile app development, I will be able to reach a
-                broader audience and provide seamless experiences across
-                different devices.
+                I also recognize the importance of understanding how front-end
+                and back-end work together to build efficient applications.
+                Therefore, I am committed to gaining expertise in back-end
+                technologies like Node.js, Express.js, and databases, enabling
+                me to create full-stack solutions. As I progress in my career, I
+                intend to stay updated on emerging trends and tools in web and
+                mobile development to ensure that I remain at the forefront of
+                the ever-evolving tech industry.
               </p>
             </div>
           </div>
