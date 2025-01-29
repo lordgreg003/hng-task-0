@@ -16,5 +16,5 @@ function updateTimeAndDate() {
 
 document.addEventListener("DOMContentLoaded", () => {
   updateTimeAndDate();
-  setInterval(updateTimeAndDate, 1000); // Update every second
+  setInterval(updateTimeAndDate, 1000);  
 });
